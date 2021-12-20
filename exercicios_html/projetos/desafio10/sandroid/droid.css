@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@font-face {
+    font-family: mta;
+    src: url("../fontes/idroid.otf") format("opentype");
+}
+body{
+    margin:0% 
+
+}
+header {
+    background-image: linear-gradient(rgb(165, 220, 165), rgb(13, 67, 13));
+    border: 1px
+}
+.menu{
+    background-color:rgb(165, 220, 165);
+    display:inline-flex;
+}
+li ul .menu{
+    list-style-type: none;
+    color:pink;
+}
+h1 {
+    font-family: ase;
+    color: rgb(7, 92, 7);
+}
+h2 {
+    font-family: mta;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    margin-top: 0%;
+}
+main, aside{
+    width: 800px;
+    align-content: center;
+    background-color: red;
+    display: inline-flexbox;
+}
+main > h2{
+    margin-top: 0px; 
+}
+footer{
+    text-align: center;
+}

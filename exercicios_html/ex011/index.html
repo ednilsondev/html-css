@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/lake-pequena.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/lake-media.jpg" type="image/jpg">
+        <img src="imagens/lake-grande.jpg" alt="lago">
+    </picture>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pequenos.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/media.png" type="image/PNG">
+        <img src="imagens/grande.png" alt="image g">
+    </picture>
+    <audio preload="auto" controls autoplay>
+        <source src="midia/fantasmanamaquina-mundo-vai-explodir.mp3" type="audio/mpeg">
+        <source src="midia/fantasmanamaquina-mundo-vai-explodir.mp3" type="audio/ogg">
+        <source src="midia/fantasmanamaquina-mundo-vai-explodir.mp3" type="audio/wav">
+    </audio>
+    <!--MP3 WAV OGG-->
+</body>
+</html>
